@@ -1,0 +1,37 @@
+#bird-feeder {
+
+}
+
+#bird-feeder .options {
+
+	width: 410px;
+
+}
+
+#bird-feeder .options label{
+	clear:left;
+	float:left;
+	margin: 12px 10px 8px 0px;
+	width: 180px;
+
+}
+
+#bird-feeder .options input.text, #bird-feeder .options textarea.text, #bird-feeder .options input.checkbox{
+	margin: 10px;
+	float:left;
+	width: 200px;
+
+}
+#bird-feeder .options small{
+	float: left;
+	display: block;
+	margin: -6px 0 10px 200px;
+}
+
+#bird-feeder p.submit{
+	clear:left;
+}
+
+input[type="password"]{
+-moz-box-sizing:border-box;
+}

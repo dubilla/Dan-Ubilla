@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<details>
+		<author_name>Digg</author_name>
+		<author_url>http://digg.com/</author_url>
+		<name>Digg</name>
+		<url>http://digg.com/</url>
+		<description><![CDATA[Add the Digg button to your blog post.]]></description>
+		<preview>img/digg/digg-image.jpg</preview>
+	</details>
+	<widgets> 
+		<item>
+			<name>diggbutton</name>
+			<title>DiggButton</title>
+			<file>digg/digg.png</file>
+			<template>diggbutton</template>
+			<width>70px</width>
+			<height>79px</height>
+		</item>
+	</widgets>
+	<templates>
+		<item>
+			<name>diggbutton</name>
+			<description_html><![CDATA[<a href="http://www.digg.com/">Digg Button</a>]]></description_html>
+			<template><![CDATA[<!-- DIGG BUTTON --><div style='float:right; margin-left:10px;'><script type='text/javascript'>digg_url = '%raw_permalink%';</script><script src='http://digg.com/tools/diggthis.js' type='text/javascript'/></div><!-- DIGG BUTTON -->]]></template>
+		</item>
+	</templates>
+</channel>

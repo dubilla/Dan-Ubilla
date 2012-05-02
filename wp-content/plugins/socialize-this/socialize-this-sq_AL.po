@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ST\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-06 16:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ben <admin@wp-globe.com>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: socialize-this-php4-enviroment.php:182
+#: socialize-this-php5-enviroment.php:182
+msgid "Socialize This"
+msgstr "Socialize This"
+
+#: socialize-this-php4-enviroment.php:182
+#: socialize-this-php5-enviroment.php:182
+msgid "Settings"
+msgstr "Konfigurimi"
+
+#: socialize-this-php4-enviroment.php:183
+#: socialize-this-php5-enviroment.php:183
+msgid "This section allows you to edit the settings related to Socialize This."
+msgstr "Ky modul ju lejon te ndryshoni konfigurimet e Socialize This"
+
+#: socialize-this-php4-enviroment.php:184
+#: socialize-this-php5-enviroment.php:184
+msgid "General Settings"
+msgstr "Konfigurimet e Pergjithshme"
+
+#: socialize-this-php4-enviroment.php:188
+#: socialize-this-php5-enviroment.php:188
+msgid "Include Soical Icons at bottom of your posts"
+msgstr "Implemento Ikonat Sociale ne fund te Artikullit"
+
+#: socialize-this-php4-enviroment.php:189
+#: socialize-this-php5-enviroment.php:189
+msgid "Tick for yes"
+msgstr "Zgjidh per po"
+
+#: socialize-this-php4-enviroment.php:191
+#: socialize-this-php5-enviroment.php:191
+msgid "You can manually include the social icons using the following code:"
+msgstr "Ju mund te implementoni ikonat sociale edhe ne menyre manuale duke perdorur kodin ne vijim:"
+
+#: socialize-this-php4-enviroment.php:196
+#: socialize-this-php5-enviroment.php:196
+msgid "Amount of Icons until a"
+msgstr "Sasia e ikonave per cdo rrjesht"
+
+#: socialize-this-php4-enviroment.php:197
+#: socialize-this-php5-enviroment.php:197
+msgid "For changing values for each line, sperate each value with a comma."
+msgstr "Per te ndryshuar vlerat per cdo rrjesht, ndani vlerat nga njera tjetra duke perdorur presje."
+
+#: socialize-this-php4-enviroment.php:203
+#: socialize-this-php5-enviroment.php:203
+msgid "Notify Twitter when post is Published."
+msgstr "Njofto ne Twitter kur publikoni nje Artikull."
+
+#: socialize-this-php4-enviroment.php:204
+#: socialize-this-php5-enviroment.php:204
+msgid "Your twitter username and password are required if this featured in enabled"
+msgstr "Nevojitet Emri i Perdoruesit dhe Fjalekalimi nese deshironi te aktivizoni kete opsion."
+
+#: socialize-this-php4-enviroment.php:208
+#: socialize-this-php5-enviroment.php:208
+msgid "Username:"
+msgstr "Emri i Perdoruesit:"
+
+#: socialize-this-php4-enviroment.php:209
+#: socialize-this-php5-enviroment.php:209
+msgid "Password:"
+msgstr "Fjalekalimi:"
+
+#: socialize-this-php4-enviroment.php:212
+#: socialize-this-php5-enviroment.php:212
+msgid "Social Icons (Click to enable/disable)"
+msgstr "Ikonat Sociale (Klikoni per te aktivizuar/caktivizuar)"
+
+#: socialize-this-php4-enviroment.php:234
+#: socialize-this-php5-enviroment.php:234
+msgid "Templates"
+msgstr "Shabllonet"
+
+#: socialize-this-php4-enviroment.php:235
+#: socialize-this-php5-enviroment.php:235
+msgid "This section allows you to edit the templates related to the icons."
+msgstr "Kjo menu ju lejon te ndryshoni shabllonet e perdorura ne lidhje me ikonat."
+
+#: socialize-this-php4-enviroment.php:283
+#: socialize-this-php5-enviroment.php:283
+msgid "Post Notification Status Update"
+msgstr "Axhornimi i Statusit te Njoftimit te Artikullit"
+
+#: socialize-this-php4-enviroment.php:284
+#: socialize-this-php5-enviroment.php:284
+msgid "Note: URL encoding will not take place for variables."
+msgstr "Vini Re: kodimi URL nuk do te perdoret per variablat."
+
+#: socialize-this-php4-enviroment.php:291
+#: socialize-this-php5-enviroment.php:291
+msgid "Variable Legend"
+msgstr "Tabela e Variablave"
+
+#: socialize-this-php4-enviroment.php:295
+#: socialize-this-php5-enviroment.php:295
+msgid "The permalink to the post (URL Encoded)"
+msgstr "Permalinku i Artikullit (URL Encoded)"
+
+#: socialize-this-php4-enviroment.php:299
+#: socialize-this-php5-enviroment.php:299
+msgid "The title of the post (URL Encoded)"
+msgstr "Titulli i Artikullit (URL Encoded)"
+
+#: socialize-this-php4-enviroment.php:303
+#: socialize-this-php5-enviroment.php:303
+msgid "The Excerpt of the post. If the Except does not exist, the title will double up as the descirption. (URL Encoded)"
+msgstr "Pershkrimi Sintetik i artikullit tuaj. Nese nuk ekziston do te perdoret titulli i artikullit per kete qellim. (URL Encoded)"
+
+#: socialize-this-php4-enviroment.php:307
+#: socialize-this-php5-enviroment.php:307
+msgid "The HTML for the icon."
+msgstr "Kodi HTML per ikonen"
+
+#: socialize-this-php4-enviroment.php:311
+#: socialize-this-php5-enviroment.php:311
+msgid "The image url for the icon."
+msgstr "URL e imazhit per ikonen."
+
+#: socialize-this-php4-enviroment.php:315
+#: socialize-this-php5-enviroment.php:315
+msgid "The alternative text for the icon."
+msgstr "Teksti alternativ per ikonen."
+
+#: socialize-this-php4-enviroment.php:319
+#: socialize-this-php5-enviroment.php:319
+msgid "The TinyURL of your post. Generated on Publish, if tiny is not present permalink will be used. (URL Encoded)"
+msgstr "TinyURL-ja e artikullit tuaj. Krijuar gjate publikimit, nese nuk eshte prezente do te perdoret permalink. (URL Encoded)"
+
+#: socialize-this-php4-enviroment.php:323
+#: socialize-this-php5-enviroment.php:323
+msgid "Your RSS URL"
+msgstr "URL-ja juaj e RSS"
+
+#: socialize-this-php4-enviroment.php:329
+#: socialize-this-php5-enviroment.php:329
+msgid "Credits"
+msgstr "Kreditet"
+
+#: socialize-this-php4-enviroment.php:330
+#: socialize-this-php5-enviroment.php:330
+msgid "Coder"
+msgstr "Programuesi"
+
+#: socialize-this-php4-enviroment.php:331
+#: socialize-this-php5-enviroment.php:331
+msgid "Testing Server"
+msgstr "Server Testimi"
+
+#: socialize-this-php4-enviroment.php:332
+#: socialize-this-php5-enviroment.php:332
+msgid "Icons"
+msgstr "Ikonat"
+
+#: socialize-this-php4-enviroment.php:345
+#: socialize-this-php5-enviroment.php:346
+msgid "Title"
+msgstr "Titulli"
+
+#: socialize-this-php4-enviroment.php:349
+#: socialize-this-php5-enviroment.php:350
+msgid "Description (Excerpt)"
+msgstr "Pershkrimi (Sintetik)"
+
+#: socialize-this-php5-enviroment.php:330
+msgid "For Support Visit"
+msgstr "Per Ndihme Vizitoni"
+
+#. Plugin URI of an extension
+msgid "http://www.fullondesign.co.uk/socialize-this"
+msgstr "http://www.fullondesign.co.uk/socialize-this"
+
+#. Description of an extension
+msgid "Adds social icons to your blog posts. It also can update your twitter status when you publish a post."
+msgstr "Implementon ikonat sociale ne artikujt e blogut tuaj. Gjithashtu mund te axhornoje ne menyre automatike statusin tuaj ne twitter kur ju publikoni nje artikull"
+
+#. Author of an extension
+msgid "Mike Rogers"
+msgstr "Mike Rogers"
+
+#. Author URI of an extension
+msgid "http://www.fullondesign.co.uk/"
+msgstr "http://www.fullondesign.co.uk/"
+

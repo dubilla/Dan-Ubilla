@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.danubilla.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/2.9.2" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.2" -->
+<!-- generated-on="June 5, 2010 7:17 pm" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://www.danubilla.com/</loc>
+		<lastmod>2010-06-05T19:10:32+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 142: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/design/davis-square-flag/</loc>
+		<lastmod>2010-06-05T19:10:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 100: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/web-development/enabling-curl-in-xampp/</loc>
+		<lastmod>2010-05-15T19:40:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 102: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/web-development/preparing-danubilla-com-2-0/</loc>
+		<lastmod>2010-05-15T19:40:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 132: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/web-development/maintenance-month/</loc>
+		<lastmod>2010-05-15T19:39:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 41: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/movies/the-final-frontier/</loc>
+		<lastmod>2010-05-15T18:52:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 62: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/sports/where-unexpected-matchups-happen/</loc>
+		<lastmod>2010-05-15T18:49:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 74: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://www.danubilla.com/movies/sleeping-off-the-hangover/</loc>
+		<lastmod>2010-05-15T18:48:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Priority report of postID 95: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/ramblings/going-back/</loc>
+		<lastmod>2010-05-15T18:46:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.danubilla.com/portfolio/</loc>
+		<lastmod>2010-04-13T03:21:04+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 106: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/music/like-a-plane-crash/</loc>
+		<lastmod>2010-01-28T01:08:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 48: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/books/ultramarathon-man/</loc>
+		<lastmod>2009-06-02T03:16:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 37: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/sociology/the-short-and-long-of-pressure/</loc>
+		<lastmod>2009-05-21T03:38:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 26: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/music/top-ten-albums-of-2008/</loc>
+		<lastmod>2009-04-20T01:53:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.danubilla.com/about/</loc>
+		<lastmod>2009-03-09T04:37:03+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 5: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/ramblings/the-great-experiment/</loc>
+		<lastmod>2009-03-02T05:07:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.danubilla.com/ramblings/hello-world/</loc>
+		<lastmod>2009-03-02T00:15:31+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

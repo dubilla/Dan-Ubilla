@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<details>
+		<author_name>Facebook</author_name>
+		<author_url>http://www.facebook.com/</author_url>
+		<name>Facebook 'Like'</name>
+		<url>http://developers.facebook.com/docs/guides/web#plugins</url>
+		<description><![CDATA[Add Facebook's 'Like' button to your blog post.]]></description>
+		<preview>img/fb-like/fb-like-image.jpg</preview>
+	</details>
+	<widgets> 
+		<item>
+			<name>fb-like</name>
+			<title>FacebookLike</title>
+			<file>fb-like/fb-like.png</file>
+			<template>fb-like</template>
+			<width>60px</width>
+			<height>48px</height>
+		</item>
+	</widgets>
+	<templates>
+		<item>
+			<name>fb-like</name>
+			<description_html><![CDATA[<a href="http://www.digg.com/">Facebook 'Like' Button</a>]]></description_html>
+			<template><![CDATA[<iframe src="http://www.facebook.com/widgets/like.php?href=%permalink% scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>]]></template>
+		</item>
+	</templates>
+</channel>

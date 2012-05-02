@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ST\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-06 16:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: F. Oliver Bockelmann <fob@fob-marketing.de>\n"
+"Language-Team: Marcin Bratek <m.bratek@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. #-#-#-#-#  plugin.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Plugin Name of an extension
+#: socialize-this-php4-enviroment.php:182
+#: socialize-this-php5-enviroment.php:182
+msgid "Socialize This"
+msgstr "Socialize This"
+
+#: socialize-this-php4-enviroment.php:182
+#: socialize-this-php5-enviroment.php:182
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: socialize-this-php4-enviroment.php:183
+#: socialize-this-php5-enviroment.php:183
+msgid "This section allows you to edit the settings related to Socialize This."
+msgstr "Hier können die Einstellungen für Socialize This geändert werden."
+
+#: socialize-this-php4-enviroment.php:184
+#: socialize-this-php5-enviroment.php:184
+msgid "General Settings"
+msgstr "Grundeinstellungen"
+
+#: socialize-this-php4-enviroment.php:188
+#: socialize-this-php5-enviroment.php:188
+msgid "Include Soical Icons at bottom of your posts"
+msgstr "Social Icons am Ende eines Beitrags anzeigen"
+
+#: socialize-this-php4-enviroment.php:189
+#: socialize-this-php5-enviroment.php:189
+msgid "Tick for yes"
+msgstr "Aktivieren, wenn gewünscht"
+
+#: socialize-this-php4-enviroment.php:191
+#: socialize-this-php5-enviroment.php:191
+msgid "You can manually include the social icons using the following code:"
+msgstr "Mit nachstehendem Code können die Social Icons manuell im Template eingefügt werden:"
+
+#: socialize-this-php4-enviroment.php:196
+#: socialize-this-php5-enviroment.php:196
+msgid "Amount of Icons until a"
+msgstr "Anzahl der Icons bis ..."
+
+#: socialize-this-php4-enviroment.php:197
+#: socialize-this-php5-enviroment.php:197
+msgid "For changing values for each line, sperate each value with a comma."
+msgstr "Die Icon-Anzahl kann kommasepariert pro Zeile definiert werden."
+
+#: socialize-this-php4-enviroment.php:203
+#: socialize-this-php5-enviroment.php:203
+msgid "Notify Twitter when post is Published."
+msgstr "Informiere Twitter, wenn ein Beitrag veröffentlicht wird."
+
+#: socialize-this-php4-enviroment.php:204
+#: socialize-this-php5-enviroment.php:204
+msgid "Your twitter username and password are required if this featured in enabled"
+msgstr "Falls aktiviert, sind Twitter-Name und Passwort erforderlich"
+
+#: socialize-this-php4-enviroment.php:208
+#: socialize-this-php5-enviroment.php:208
+msgid "Username:"
+msgstr "Benutzername:"
+
+#: socialize-this-php4-enviroment.php:209
+#: socialize-this-php5-enviroment.php:209
+msgid "Password:"
+msgstr "Passwort:"
+
+#: socialize-this-php4-enviroment.php:212
+#: socialize-this-php5-enviroment.php:212
+msgid "Social Icons (Click to enable/disable)"
+msgstr "Social Icons (anklicken, zum Aktivieren oder Deaktivieren)"
+
+#: socialize-this-php4-enviroment.php:234
+#: socialize-this-php5-enviroment.php:234
+msgid "Templates"
+msgstr "Template-Vorlagen"
+
+#: socialize-this-php4-enviroment.php:235
+#: socialize-this-php5-enviroment.php:235
+msgid "This section allows you to edit the templates related to the icons."
+msgstr "Hier können die Icon-Vorlagen (Templates) angepasst werden."
+
+#: socialize-this-php4-enviroment.php:283
+#: socialize-this-php5-enviroment.php:283
+msgid "Post Notification Status Update"
+msgstr "Status-Update zur Beitragsveröffentlichung"
+
+#: socialize-this-php4-enviroment.php:284
+#: socialize-this-php5-enviroment.php:284
+msgid "Note: URL encoding will not take place for variables."
+msgstr "Hinweis: Variablen werden beim URL-Encoding nicht berücksichtigt."
+
+#: socialize-this-php4-enviroment.php:291
+#: socialize-this-php5-enviroment.php:291
+msgid "Variable Legend"
+msgstr "Legede für Variablen"
+
+#: socialize-this-php4-enviroment.php:295
+#: socialize-this-php5-enviroment.php:295
+msgid "The permalink to the post (URL Encoded)"
+msgstr "Der Permalink zum Eintrag (URL encoded)"
+
+#: socialize-this-php4-enviroment.php:299
+#: socialize-this-php5-enviroment.php:299
+msgid "The title of the post (URL Encoded)"
+msgstr "Der Seitentitel (Url encoded)"
+
+#: socialize-this-php4-enviroment.php:303
+#: socialize-this-php5-enviroment.php:303
+msgid "The Excerpt of the post. If the Except does not exist, the title will double up as the descirption. (URL Encoded)"
+msgstr "Die Kurzbeschreibung (Excerpt). Falls nicht vorhanden, wird der Seitentitel als Beschreibung verwendet (URL encoded)"
+
+#: socialize-this-php4-enviroment.php:307
+#: socialize-this-php5-enviroment.php:307
+msgid "The HTML for the icon."
+msgstr "HTML für den Icon."
+
+#: socialize-this-php4-enviroment.php:311
+#: socialize-this-php5-enviroment.php:311
+msgid "The image url for the icon."
+msgstr "Die Bild URL für den Icon."
+
+#: socialize-this-php4-enviroment.php:315
+#: socialize-this-php5-enviroment.php:315
+msgid "The alternative text for the icon."
+msgstr "Alternativtext für den Icon."
+
+#: socialize-this-php4-enviroment.php:319
+#: socialize-this-php5-enviroment.php:319
+msgid "The TinyURL of your post. Generated on Publish, if tiny is not present permalink will be used. (URL Encoded)"
+msgstr "TinyURL des Beitrags. Wird bei Veröffentlichung generiert. Falls nicht vorhanden, wird der Permalink genutzt (URL encoded)."
+
+#: socialize-this-php4-enviroment.php:323
+#: socialize-this-php5-enviroment.php:323
+msgid "Your RSS URL"
+msgstr "Die RSS-URL"
+
+#: socialize-this-php4-enviroment.php:329
+#: socialize-this-php5-enviroment.php:329
+msgid "Credits"
+msgstr "Credits"
+
+#: socialize-this-php4-enviroment.php:330
+#: socialize-this-php5-enviroment.php:330
+msgid "Coder"
+msgstr "Coder"
+
+#: socialize-this-php4-enviroment.php:331
+#: socialize-this-php5-enviroment.php:331
+msgid "Testing Server"
+msgstr "Test-Server"
+
+#: socialize-this-php4-enviroment.php:332
+#: socialize-this-php5-enviroment.php:332
+msgid "Icons"
+msgstr "Icons"
+
+#: socialize-this-php4-enviroment.php:345
+#: socialize-this-php5-enviroment.php:346
+msgid "Title"
+msgstr "Seitentitel"
+
+#: socialize-this-php4-enviroment.php:349
+#: socialize-this-php5-enviroment.php:350
+msgid "Description (Excerpt)"
+msgstr "Beschreibung (Excerpt)"
+
+#: socialize-this-php5-enviroment.php:330
+msgid "For Support Visit"
+msgstr "Support anfordern:"
+
+#. Plugin URI of an extension
+msgid "http://www.fullondesign.co.uk/socialize-this"
+msgstr "http://www.fullondesign.co.uk/socialize-this"
+
+#. Description of an extension
+msgid "Adds social icons to your blog posts. It also can update your twitter status when you publish a post."
+msgstr "Das Plugin fügt Social Icons zu Deinen Blog-Posts hinzu. Es kann außerdem bei Beitragsveröffetlichungen ein Twitter-Status-Update versenden."
+
+#. Author of an extension
+msgid "Mike Rogers"
+msgstr "Mike Rogers"
+
+#. Author URI of an extension
+msgid "http://www.fullondesign.co.uk/"
+msgstr "http://www.fullondesign.co.uk/"
+

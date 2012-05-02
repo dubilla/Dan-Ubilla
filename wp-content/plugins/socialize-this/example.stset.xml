@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<details>
+		<author_name>Mike Rogers</author_name>
+		<author_url>http://www.fullondesign.co.uk/</author_url>
+		<name>Example Set</name>
+		<url>http://www.fullondesign.co.uk/</url>
+		<description><![CDATA[A breif description of your Widgets]]></description>
+		<preview>preview-image.jpg</preview>
+	</details>
+	<widgets> 
+		<item>
+			<name>kb-twitter</name>
+			<title>Twitter</title>
+			<file>kb/kb-twitter.png</file>
+			<template>twitter</template>
+			<width>98px</width>
+			<height>98px</height>
+		</item>
+		<item>
+			<name>kb-facebook</name>
+			<title>Facebook</title>
+			<file>kb/kb-facebook.png</file>
+			<template>facebook</template>
+			<width>98px</width>
+			<height>98px</height>
+		</item>
+	</widgets>
+	<templates>
+		<item>
+			<name>example</name>
+			<description_html><![CDATA[<a href="#">Link To Website</a>]]></description_html>
+			<template><![CDATA[%raw_permalink% - Put HTML with tags in here.]]></template>
+		</item>
+	</templates>
+</channel>

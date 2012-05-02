@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<details>
+		<author_name>Twitter</author_name>
+		<author_url>http://www.twitter.com/</author_url>
+		<name>@Anywhere</name>
+		<url>http://dev.twitter.com/apps/new/</url>
+		<description><![CDATA[Add the @Anywhere button to your blog post.]]></description>
+		<preview>img/twitter-anywhere/twitter-anywhere-image.jpg</preview>
+	</details>
+	<widgets> 
+		<item>
+			<name>twitter-anywhere</name>
+			<title>AddThis</title>
+			<file>twitter-anywhere/twitter-anywhere.png</file>
+			<template>twitter-anywhere</template>
+			<width>226px</width>
+			<height>47px</height>
+		</item>
+	</widgets>
+	<templates>
+		<item>
+			<name>twitter-anywhere</name>
+			<description_html><![CDATA[<a href="http://dev.twitter.com/apps/new/">@Anywhere Button</a>]]></description_html>
+			<template><![CDATA[<script src="http://platform.twitter.com/anywhere.js?id=%anywhere%&v=1" type="text/javascript"></script><script type="text/javascript">twttr.anywhere(onAnywhereLoad);function onAnywhereLoad(twitter) {twitter('#follow-%twitter_name%').followButton("%twitter_name%");};</script><div id="follow-%twitter_name%"></div>]]></template>
+		</item>
+	</templates>
+</channel>

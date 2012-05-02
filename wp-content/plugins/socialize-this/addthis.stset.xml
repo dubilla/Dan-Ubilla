@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel>
+	<details>
+		<author_name>AddThis</author_name>
+		<author_url>http://www.addthis.com/</author_url>
+		<name>AddThis</name>
+		<url>http://www.addthis.com/</url>
+		<description><![CDATA[Add the AddThis button to your blog post.]]></description>
+		<preview>img/addthis/addthis-image.jpg</preview>
+	</details>
+	<widgets> 
+		<item>
+			<name>addthis</name>
+			<title>AddThis</title>
+			<file>addthis/addthis.png</file>
+			<template>addthis</template>
+			<width>140px</width>
+			<height>41px</height>
+		</item>
+	</widgets>
+	<templates>
+		<item>
+			<name>addthis</name>
+			<description_html><![CDATA[<a href="http://www.addthis.com/">AddThis Button</a>]]></description_html>
+			<template><![CDATA[<!-- AddThis Button BEGIN --><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4bb3cb0c0cfb739f"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4bb3cb0c0cfb739f"></script><!-- AddThis Button END -->]]></template>
+		</item>
+	</templates>
+</channel>

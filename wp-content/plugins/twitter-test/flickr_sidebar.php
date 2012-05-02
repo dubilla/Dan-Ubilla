@@ -1,0 +1,223 @@
+<?php
+/*
+Plugin Name: Flicker Sidebar by Dan
+Version: 0.9
+Plugin URI: http://www.danubilla.com
+Description: Displays your public Flickr pictures in the sidebar.
+Author: Dan Ubilla
+Author URI: http://www.danubilla.com
+*/
+
+/*  Copyright 2009  Dan Ubilla (dan.ubilla[at]gmail.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+function twitter_feed_general(){
+
+//URL encode the query string
+$q = urlencode("clemson tigers baseball");
+
+//request URL
+$request = "http://search.twitter.com/search.atom?q=$q&lang=en";
+
+$curl = curl_init();
+
+curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
+
+curl_setopt($curl,CURLOPT_URL,$request);
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+
+//remove "twitter:" from the $response string
+$response = str_replace("twitter:","",$response);
+
+//convert response XML into an object
+$xml = simplexml_load_string($response);
+
+//warpping the whole output with <result></result>
+echo "<results>";
+
+//loop through all the entry(s) in the feed
+for($i=0;$i<count($xml->entry);$i++){
+
+	//get the id from entry
+	$id = $xml->entry[$i]->id;
+	
+	//explode the $id by ":"
+	$id_parts = explode(":",$id);
+	
+	//the last part is the tweet id
+	$tweet_id = array_pop($id_parts);
+	
+	//get the account link
+	$account_link = $xml->entry[$i]->author->uri;
+	
+	//get the image link
+	$image_link = $xml->entry[$i]->link[1]->attributes()->href;
+	
+	//get name from entry and trim the last ")"
+	$name = trim($xml->entry[$i]->author->name,")");
+	
+	//explode $name by the rest "(" inside it
+	$name_parts = explode("(",$name);
+	
+	//get the real name of user from the last part
+	$real_name = trim(array_pop($name_parts));
+	
+	//the rest part is the screen name
+	$screen_name = trim(array_pop($name_parts));
+	
+	//get the published time, replace T and Z with " " and trim the last " "
+	$published_time = trim(str_replace(array("T","Z"),"",$xml->entry[$i]->published));
+	
+	//get the status link
+	$status_link = $xml->entry[$i]->link[0]->attributes()->href;
+	
+	//get the tweet
+	$tweet = $xml->entry[$i]->content;
+	
+	//remove <b> and </b> from the tweet. If you want to show bold keyword then you can comment this line
+	$tweet = str_replace(array("<b>","</b>"),"",$tweet);
+	
+	//get the source link
+	$source = $xml->entry[$i]->source;
+	
+	//the result div that holds the information
+	echo '<div class="result" id="'.tweet_id.'">
+					<div class="profile_image">
+						<a href="'.$account_link.'">
+							<img src="'.$image_link.'">
+						</a>
+					</div>
+					<div class="status">
+						<div class="content">
+							<strong>
+								<a href="'.$account_link.'">'.$screen_name.'</a>
+							</strong>'.$tweet.'
+						</div>
+						<div class="time">
+							'.$real_name.' at <a href="'.$status_link.'">'.$published_time.'</a> via '.$source.'
+						</div>
+					</div>
+				</div>';
+	}
+	echo "</results>";
+}
+
+function flickr_feed(){
+
+//URL encode the query string
+$user = urlencode('dubilla');
+
+//request URL
+$request = "http://api.flickr.com/services/feeds/photos_public.gne?id=7565600@N05&lang=en-us&format=rss_200";
+
+$curl = curl_init();
+
+curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
+
+curl_setopt($curl,CURLOPT_URL,$request);
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+
+//remove "twitter:" from the $response string
+$response = str_replace("twitter:","",$response);
+
+//convert response XML into an object
+$xml = simplexml_load_string($response);
+
+//loop through all the entry(s) in the feed
+for($i=0;$i<1;$i++){
+
+	//get the id from entry
+	$id = $xml->entry[$i]->id;
+	
+	//explode the $id by ":"
+	$id_parts = explode(":",$id);
+	
+	//the last part is the tweet id
+	$tweet_id = array_pop($id_parts);
+	
+	//get the account link
+	$account_link = $xml->entry[$i]->author->uri;
+	
+	//get the image link
+	$image_link = $xml->entry[$i]->link[1]->attributes()->href;
+	
+	//get name from entry and trim the last ")"
+	$name = trim($xml->entry[$i]->author->name,")");
+	
+	//explode $name by the rest "(" inside it
+	$name_parts = explode("(",$name);
+	
+	//get the real name of user from the last part
+	$real_name = trim(array_pop($name_parts));
+	
+	//the rest part is the screen name
+	$screen_name = trim(array_pop($name_parts));
+	
+	//get the published time, replace T and Z with " " and trim the last " "
+	$published_time = trim(str_replace(array("T","Z"),"",$xml->entry[$i]->published));
+	
+	//get the published date
+	$published_date = substr($published_time,0,10);
+	
+	//get the REAL published time
+	$published_time = substr($published_time,10,5);
+	$published_hour = substr($published_time,0,2);
+	$published_minutes = substr($published_time,2,3);
+	$published_hour = (int)$published_hour;
+	$published_hour = $published_hour - 6;
+	if($published_hour < 0) $published_hour = 24 + $published_hour;
+	if($published_hour > 12){
+		$published_hour = $published_hour - 12;
+		$meridiem = 'pm';
+	} else
+		$meridiem = 'am';
+	$published_time = $published_hour.$published_minutes.' '.$meridiem;
+	
+	//get the status link
+	$status_link = $xml->entry[$i]->link[0]->attributes()->href;
+	
+	//get the tweet
+	$tweet = $xml->entry[$i]->content;
+	
+	//remove <b> and </b> from the tweet. If you want to show bold keyword then you can comment this line
+	$tweet = str_replace(array("<b>","</b>"),"",$tweet);
+	
+	//get the source link
+	$source = $xml->entry[$i]->source;
+	
+	//the result div that holds the information
+	echo '<div class="twitter" id="'.$tweet_id.'">
+					<div class="twitter-item">
+						<div class="twitter-message">
+							'.$tweet.'
+						</div>
+						<div class=".twitter-timestamp" align="right">
+							on <a href="'.$status_link.'" class="twitter-link">'.$published_date.' at '.$published_time.'</a>
+						</div>
+					</div>
+				</div>';
+	}
+
+}
+
+?>
